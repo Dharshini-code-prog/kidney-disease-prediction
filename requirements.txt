@@ -1,0 +1,19 @@
+tensorflow==2.12.0      # Deep learning framework for building and training CNN models
+pandas                  # For data manipulation and analysis (DataFrames, CSV handling, etc.)
+dvc                     # Data Version Control for tracking datasets, models, and pipelines
+mlflow==2.2.2           # For experiment tracking and model management
+notebook                # To run and work with Jupyter Notebooks
+numpy                   # For numerical operations and array handling
+matplotlib              # For basic data visualization
+seaborn                 # For statistical data visualization (built on top of matplotlib)
+python-box==6.0.2       # Allows dot notation access to dictionaries (clean config handling)
+pyyaml                  # To read and write YAML config files like config.yaml
+tqdm                    # For displaying smart progress bars during loops and training
+ensure==1.0.2           # Lightweight package to ensure conditions are met in code
+joblib                  # For saving/loading models and intermediate results (serialization)
+types-PyYAML            # Type hints for PyYAML (helps with static typing, e.g., in IDEs)
+scipy                   # Scientific computing (used in preprocessing, metrics, etc.)
+Flask                   # To serve the model as a REST API
+Flask-Cors              # To handle Cross-Origin Resource Sharing (CORS) in the Flask app
+gdown                   # To download datasets from Google Drive easily
+-e .                    # Install the current project in editable mode (links to setup.py)
