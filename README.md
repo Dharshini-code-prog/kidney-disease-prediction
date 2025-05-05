@@ -28,4 +28,12 @@ pip install -r requirements.txt
 add logging module in src
 create  main.py and simply give welcome command
 under utils add common.py
+then under research open trial.py to download dataset
+
+then follow the work flow after 1st go to research add data_ing
+then go to constant --to get path of two yaml 
+research data_ing - 4 5 6 7
+then paste those thing seperate
+add artifacts/* in gitignore
+
 '''
