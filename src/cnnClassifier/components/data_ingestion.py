@@ -6,7 +6,10 @@ import gdown
 from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
 from cnnClassifier.entity.config_entity import (DataIngestionConfig)
-
+import os
+import urllib.request as request
+from zipfile import ZipFile
+import tensorflow as tf
 #executing the same thing how we downloaded dataset from trial
 
 class DataIngestion:
@@ -43,3 +46,4 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
+
